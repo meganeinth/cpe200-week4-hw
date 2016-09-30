@@ -105,7 +105,7 @@ public class CourseTest {
         Student s3 = new Student("S3","590610703",1993);
         Student s4 = new Student("S4","590610704",1994);
 
-        assertTrue(c1.enrollStudent(s1));
+            assertTrue(c1.enrollStudent(s1));
         assertFalse(c1.enrollStudent(s1));
         assertTrue(c1.enrollStudent(s2));
         assertTrue(c1.enrollStudent(s3));
